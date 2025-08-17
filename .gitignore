@@ -1,0 +1,9 @@
+# Lazy
+lazy-lock.json
+/lazy/
+
+# Undo history
+.undodir
+
+# OS-specific
+.DS_Store
