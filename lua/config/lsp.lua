@@ -1,7 +1,7 @@
 -- Setup for mason and mason-lspconfig
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "bashls", "cssls", "dockerls", "html", "jsonls", "marksman", "pyright", "rust_analyzer", "sqlls", "taplo", "tsserver", "yamlls" },
+  ensure_installed = { "lua_ls", "bashls", "cssls", "dockerls", "html", "jsonls", "marksman", "pyright", "rust_analyzer", "sqlls", "taplo", "ts_ls", "yamlls" },
 })
 
 -- LSP settings
